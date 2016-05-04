@@ -3,14 +3,14 @@
 	padding: 0;
 }
 
-section #par1{
+section#par1{
 	background-color: blue;
 }
 
-section #par2{
+section#par2{
 	background-color: white;
 }
 
-section #par3{
+section#par3{
 	background-color: red;
 }
