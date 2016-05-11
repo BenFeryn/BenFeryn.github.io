@@ -1,18 +1,36 @@
-﻿*{
+*{
 	margin :0;
 	padding: 0;
 }
+body{
+	max-width: 900px;
+	margin:auto;
+}
 #paragraphe1{
 	background-color: blue;
+	margin-bottom: 2em;
 }
 
 #paragraphe2{
 	background-color: white;
+	margin-bottom: 2em;
 }
 
 #paragraphe3{
 	background-color: red;
+	margin-bottom: 2em;
+}
+#form{
+	margin: 2em 0;
+}
+#champs{
+	display: block;
+	width:auto;
+	margin: 5px;
 }
 footer{
 	margin-top: 20px;
+}
+img{
+	max-width: 100%;
 }

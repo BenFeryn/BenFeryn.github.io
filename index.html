@@ -8,9 +8,9 @@
 	<title>M4105C : Un super Kappa</title>
 </head>
 <body>
-	<header>Header</header>
+	<header></header>
 	<section id="paragraphe1">
-		<p>dddLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -35,27 +35,44 @@
 		<section>
 			<section id="form">		
 				<form action='' method='POST'>
-					<label for="nom_exp">Nom :</label>			
-					<input type='text' name='nom' />
+					<div id="champs">
+						<label for="nom_exp">Nom :</label>			
+						<input type='text' name='nom' />
+					</div>
 					
+					<div id="champs">
 					<label for="dte_naissance">Date naissance</label>
 					<input type='date' name='dte_naiss' />
+					</div>
 					
+					<div id="champs">
 					<label for="age">Age</label>
 					<input type='number' name='age' />
-					
+					</div>
+
+					<div id="champs">
 					<label for="fcb">Facebook :</label>			
 					<input type='url' name='fcb' />
+					</div>
 
+					<div id="champs">
 					<label for="nom_exp">Email :</label>			
 					<input type='email' name='mail' />
+					</div>
 					
+					<div id="champs">
 					<label for="nom_exp">Tel :</label>			
 					<input type='tel' name='tel' />
+					</div>
 
 					<input type='submit' value='Envoyer'>
 				</form>
 		</section>
-	<footer>Footer</footer>
+
+		<section id="image">
+			<img id="mairie_calais" src="images/mairie-de-calais.jpg" alt="mairie-calais" >
+		</section>
+
+	<footer></footer>
 </body>
 </html>
