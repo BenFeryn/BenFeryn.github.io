@@ -2,6 +2,12 @@
 	margin :0;
 	padding: 0;
 }
+header{
+	background:url(images/logo-iut.jpg) no-repeat;
+	width : 300px;
+	display: block;
+	margin : auto;
+}
 body{
 	max-width: 900px;
 	margin:auto;
